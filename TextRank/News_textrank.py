@@ -69,4 +69,5 @@ print('摘要：')
 # 重要性较高的三个句子
 for item in tr4s.get_key_sentences(num=3):
 	# index是语句在文本中位置，weight表示权重
-    print(item.index, item.weight, item.sentence)
+#    print(item.index, item.weight, item.sentence)
+	print(item.sentence)
